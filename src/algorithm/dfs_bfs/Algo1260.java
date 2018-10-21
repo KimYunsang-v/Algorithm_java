@@ -10,7 +10,7 @@ public class Algo1260 {
     static boolean visited[];
     static int N, M, V;
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         N = scanner.nextInt();
         mat = new int [10001][10001];
@@ -35,7 +35,7 @@ public class Algo1260 {
         System.out.println();
 
         bfs(V);
-    }
+    }*/
 
     public static void dfs(int i){
         visited[i] = true;
