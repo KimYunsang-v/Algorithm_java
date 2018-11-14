@@ -12,25 +12,25 @@ public class Algo2178 {
     static int[] dy = {0, -1, 0, 1};
     static int N, M;
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        N = sc.nextInt();
-        M = sc.nextInt();
-        sc.nextLine();
-        arr = new int[N][M];
-        visited = new boolean[N][M];
-        for (int i = 0; i < N; i++) {
-            String str = sc.nextLine();
-            for (int j = 0; j < M; j++) {
-                arr[i][j] = str.charAt(j) - '0';
-                visited[i][j] = false;
-            }
-        }
-        visited[0][0] = true;
-        BFS(0, 0);
-        System.out.println(arr[N - 1][M - 1]);
-    }
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//
+//        N = sc.nextInt();
+//        M = sc.nextInt();
+//        sc.nextLine();
+//        arr = new int[N][M];
+//        visited = new boolean[N][M];
+//        for (int i = 0; i < N; i++) {
+//            String str = sc.nextLine();
+//            for (int j = 0; j < M; j++) {
+//                arr[i][j] = str.charAt(j) - '0';
+//                visited[i][j] = false;
+//            }
+//        }
+//        visited[0][0] = true;
+//        BFS(0, 0);
+//        System.out.println(arr[N - 1][M - 1]);
+//    }
 
     static public void BFS(int x, int y) {
         Queue<Dot> q = new LinkedList<Dot>();
