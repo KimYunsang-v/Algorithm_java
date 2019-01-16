@@ -7,14 +7,14 @@ import java.util.Scanner;
 
 public class Algo1697 {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();  // 시작지
         int K = sc.nextInt();  // 도착지
         int[] Min = new int[100005];
         Arrays.fill(Min, -1);
         System.out.println(BFS(N,K,Min));
-    }
+    }*/
 
     public static int BFS(int N, int K, int[] Min){
         int nextN = N;
