@@ -43,7 +43,7 @@ public static String solution(int n, int t, int m, int p) {
                 if(answer.length() == t) break;
                 i++;
             }
-            currentNum++;
+            currentNum++; 
             if(answer.length() == t) break;
         }
         // System.out.println(answer);
