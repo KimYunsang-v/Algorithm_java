@@ -63,7 +63,7 @@ public static int[] solution(int[] A, int K) {
             // 마지막까지 가면 처음부터
             if(index >= A.length) index = 0;
         }
-
+        
         return answer;
         // write your code in Java SE 8
     }
