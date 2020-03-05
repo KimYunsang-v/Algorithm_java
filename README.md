@@ -1,6 +1,4 @@
-# Algorithm_java
-
-## Algorithm Study With Java
+# Algorithm Study With Java
 
 
 </br>
