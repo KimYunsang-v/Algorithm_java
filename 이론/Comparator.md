@@ -8,9 +8,9 @@ Arrays 또는 Collections 의 sort 메서드 호출 후 첫 번째 인자로 배
 
 Comparator 인터페이스의 compare 메소드를 오버라이드 한다.
 
-리턴값이 참이면 그대로
+리턴값이 참이면 자리 바꿈
 
-거짓이면 자리 바꿈
+거짓이면 그대로
 
 <pre><code>
 public class Main {
