@@ -43,7 +43,7 @@ static void floodFill(int screen[][], int x, int y, int newC)
     int prevC = screen[x][y]; 
     floodFillUtil(screen, x, y, prevC, newC); 
 } 
-  
+
 // Driver code 
 public static void main(String[] args)  
 { 
