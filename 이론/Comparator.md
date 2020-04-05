@@ -29,7 +29,6 @@ public class Main {
                 return o1.num - o2.num;
             }
         });
-
     }
 
     static class Fail {
