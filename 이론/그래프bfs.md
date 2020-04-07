@@ -40,6 +40,7 @@
                     }
                 }
             }
+            
             // 다음 방문 할 노드가 없으면 break;
             if(nextNodes.isEmpty()) {
                 break;
