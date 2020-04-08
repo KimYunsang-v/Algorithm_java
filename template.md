@@ -4,8 +4,5 @@
 
 <pre><code>
 
-
-
-
 </code></pre>
 
