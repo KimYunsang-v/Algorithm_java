@@ -42,7 +42,7 @@ static void floodFill(int screen[][], int x, int y, int newC)
 { 
     int prevC = screen[x][y]; 
     floodFillUtil(screen, x, y, prevC, newC); 
-} 
+}
 
 // Driver code 
 public static void main(String[] args)  
@@ -61,7 +61,7 @@ public static void main(String[] args)
   
     System.out.println("Updated screen after call to floodFill: "); 
     for (int i = 0; i < M; i++) 
-    { 
+    {
         for (int j = 0; j < N; j++) 
         System.out.print(screen[i][j] + " "); 
         System.out.println(); 
